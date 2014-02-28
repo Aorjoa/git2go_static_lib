@@ -1,10 +1,9 @@
 package git
 
-/*
-#cgo pkg-config: libgit2
-#include <git2.h>
-#include <git2/errors.h>
-*/
+// #cgo CFLAGS: -I/Users/dekcom/libgit2/include
+// #cgo LDFLAGS: /Users/dekcom/libgit2/build/libgit2.a -lz -lssl -lcrypto -liconv
+// #include <git2.h>
+// #include <git2/errors.h>
 import "C"
 import (
 	"bytes"
